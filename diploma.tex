@@ -1,0 +1,233 @@
+\documentclass[a4paper,12pt]{article}         % класс документа - статья. Также report, book и др.
+\usepackage{geometry}           % пакет для задания полей страницы командой \geometry
+\geometry{left=3cm,right=1.5cm,top=2cm,bottom=2cm}
+\usepackage[cp1251]{inputenc}   % кодировка текста
+\usepackage{mathtext}           % позволяет использовать русские буквы в формулах
+\usepackage[T2A]{fontenc}       %пакет Т2А необходим для правильного отображения кириллицы и переноса слов
+%\inputencoding{cp1251}          % тоже кодировка...
+\usepackage[russian]{babel}     % языковой пакет - последний язык главный
+\usepackage{hyperref}  %создаёт гиперссылки на список литературы в pdf-файле
+\usepackage{amstext,amsmath,amssymb}            % пакеты для формул
+\usepackage{bm}                 % boldmath - пакет для жирного шрифта
+\usepackage[pdftex]{graphicx}   % пакет для включения рисунков в форматах png,pdf,jpg,mps,tif
+                                % надо компилировать сразу в pdf
+\usepackage{amsfonts}           % греческие символы и, возможно, что-то ещё
+\usepackage{indentfirst}        % одинаковый отступ для первого параграфа и всего остального
+\usepackage{cite}               % команда /cite{1,2,7,9} даёт ссылки
+\usepackage{multirow}           % пакет для объединения строк в таблице: надо указать число строк и ширину столбца
+\usepackage{array}              % нужен для создания таблиц
+\linespread{1.3}                % полтора интервала. Если 1.6, то два интервала
+\pagestyle{plain}               % номерует страницы
+
+\begin{document}
+\begin{titlepage}
+\begin{center}
+Министерство образования и науки РФ
+
+федеральное государственное автономное образовательное учреждение высшего образования \flqq Московский физико-технический институт (национальный исследовательский университет)\frqq\\
+
+
+Факультет общей и прикладной физики\\
+Образовательная программа "Вычислительная физика конденсированного состояния и живых систем"\\
+\end{center}
+
+\vspace{5cm}
+
+\begin{center}
+\LARGE \bf{Влияние конформации остатка пролина на структурно-динамические характеристики трансмембранного домена рецептора инсулина}
+\end{center}
+
+\begin{center}\large
+Диплом на соискание степени бакалавра
+\end{center}
+
+\vspace{2cm}
+
+\large
+\begin{flushright}
+\textbf{Выполнила:}\\
+студентка 626 группы\\
+Щекотихина Дарья Денисовна\\
+
+\vspace{1cm}
+
+\textbf{Научный руководитель:}\\
+доктор физико-математических наук \\
+Ефремов Роман Гербертович
+\end{flushright}
+
+\vspace{1cm}
+
+\begin{center}
+Москва 2020
+\end{center}
+
+\end{titlepage}
+
+\begin{center}
+\LARGE\bf{Аннотация}
+\end{center}
+
+Данная работа посвящена исследованию роли конформации пептидной связи пролина в трансмембранном домене рецептора инсулина в контексте механизма активации рецептора.
+
+\setcounter{page}{2}            % Нумерация страниц начинается с "2"
+
+\newpage                      
+\tableofcontents              
+
+\newpage
+\section{Введение}
+
+TO-DO
+
+
+\newpage
+\section{Обзор литературы}
+
+\subsection{Рецептор инсулина}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.40\textwidth]{InsulineReceptor.jpg}
+    \caption{??? (Какое?) изображение IR. Внеклеточный домен изображен сверху; внутриклеточный (киназный домен) изображен снизу; мембрана схематично показана серым цветом. \url{https://pdb101.rcsb.org/motm/182}}
+    \label{fig:IR}
+\end{figure}
+
+Инсулиновый рецептор (IR) - это рецептор, связывающийся с молекулой инсулина. Он принадлежит обширному классу тирозинкиназных рецепторов и представляет собой трансмембранный белок, представленный в виде димера.
+
+В рецепторе инсулина выделяют внеклеточный, трансмембранный и внутриклеточный (киназный) домены (см рис. \ref{fig:IR}{}). Внеклеточный домен связывается с инсулином, трансмембранный домен передает сигнал от внеклеточного домена к киназному, киназный домен запускает каскад реакций внутри клетки.\\
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.90\textwidth]{IR_path.png}
+    \caption{Схема каскада реакций, запускаемых рецептором инсулина (синий) в результате связывания с инсулином (красный). \url{https://pdb101.rcsb.org/global-health/diabetes-mellitus/drugs/insulin/insulin-receptor}}
+    \label{fig:path}
+\end{figure}
+
+Роль IR в организме заключается в регуляции гомеостаза глюкозы. Этот процесс можно кратко описать следующим образом:
+
+\begin{itemize}
+ \item Пища поступает в организм, вследствие расщепления углеводов происходит повышение уровня глюкозы в крови.
+ \item В ответ на повышение уровня глюкозы выработывается горомон инсулин.
+ \item Инсулин связывается с внеклеточным доменом рецептора
+ \item  Происходит передача сигнала внутрь клетки - к внутриклеточному домену.
+ \item Киназный домен запускает каскад реакций, приводящий к увеличению завата глюкозы клеткой. Вследствие этого уровень глюкозы в крови понижается.
+\end{itemize}
+
+Поскольку рецептор отвечает за столь важный процесс в организме человека, нарушения в его работе приводят к различным клиническим проявления, в том числе к диабету. Поэтому процесс активации IR - это актуальный вопрос современной биохимии. Знание этого процесса на молекулярном уровне может послужить базой для создания лекарств на основе структуры белка (Structure-based drug design (TO-DO add reference to some article??)).
+
+\subsubsection{Модели активации IR}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.80\textwidth]{activation.jpg}
+    \caption{Models of the mechanism of ligand activation of the insulin receptor tyrosine kinase. A: The "yo-yo" model. B: The TM domain ligand-induced separation model. C: The TM domain ligand-induced approximation model. D. The "rotation model".  \cite{activation}}
+    \label{fig:activation_pic}
+\end{figure}
+
+В то время как для внеклеточного и киназного доменов возможно подробное исследование экспериментальными методами, в том числе с помощью cryo EM \cite{ecto}, трансмембранный домен представляет особую сложность из-за необходимости создания липидного окружения. Поэтому были предложены разные механизмы активации IR \cite{activation} (см рис. \ref{fig:activation_pic}).  \\
+
+
+
+На данный момент общепринятой моделью, подтверждающейся экспериментальными данными, является предложенная Lee \cite{lee} (см рис. \ref{fig:activation_pic}C). В данной модели ТМ домены оказываются достаточно свободными и подвижными в мембране, чтобы иметь возможность самодимеризации. Далее, из-за такого изменения конформации ТМ участка, киназный домен переходит в активированное состояние. \\
+
+Таким образом, ввиду особой сложности для эксперимента, в изучении ТМ домена особый интерес представляют методы компьютерного моделирования. Они позволяют на базе неполных структурных данных проверять теоретические предположения на основе оценки стабильности структур, а так же получать представление о динамике полученных структур в модельном окружении (см. раздел \ref{md}).
+
+
+\subsection{Трансмембраный домен IR}
+
+
+\subsubsection{Экспериментальные данные}
+
+Структурные данные - эксп. в мицеллах
+
+TO-DO добавить инфу про ямр эксперимент ИБХ
+
+\subsubsection{Данные моделирования}
+
+TO-DO добавить инфу про посчитанные димеры
+
+\subsection{Пролин в трансмембранных $\alpha$-спиралях}
+
+\subsubsection{Влияние пролина на свойства спирали}
+
+Принято считать, что остаток пролина в трансмембранных спиралях играет функциональную роль. На это указывает сравнительно высокая встречаемость пролина в трансмембранных спиралях по сравнению со спиралями водорастворимых белков \cite{prolineExp1}, \cite{bacteriorhodopsin}. Кроме того, было показано, что внесение мутаций в Pro в ТМ домене транспортных белков приводит к деактивации их механизма действия \cite{prolineExp2}. Все это дает основание полагать, что пролин играет ключевую роль в механизме действия трансмембранных доменов большого количества белков. \\
+
+Как компьютерное моделирование, так и экспериментальные данные показывают, что пролин вносит конформационные изменения в геометрию ТМ $\alpha$-спирали \cite{model}, \cite{prolineDistortions}. Цис- конформация пептидной связи между XXX-Pro создает так называемый "кинк" в $\alpha$-спирали, что может изменять ее ориентацию в мембране и, как следствие, меняет функциональные свойства пептида. Структуры с кинками отслеживаются в эксперименте наряду с обычными прямыми спиралями, что позволяет говорить о существовании обоих конформаций. 
+
+Также было замечено, что пролин в трансмембранных спиралях имеет достаточно консервативное положение: он чаще всего оказывается "вытащен" в область гидрофильных головок \cite{positioning}. Такое специфическое положение в свою очередь имеет связь с процессом димеризации ТМ спиралей. Так, с помощью поиска мотивов, образующих водородные связи в димерах, было исследовано, что пролин, находящийся в гидрофильной области ТМД (трансмембранного домена) индуцирует димеризацию мономеров в мембране \cite{tmtm}. Этот факт вызывает особый интерес в контексте изучения механизма работы ТМД в инсулиновом рецепторе.\\
+
+\subsubsection{Цис-транс изомеризация}
+
+В исследовании цис-транс конформаций $\alpha$-спиралей в мембранах особняком стоит вопрос о цис-транс изомеризации. В эксперименте тяжело зафиксировать конформационный переход, меняющий геометрию пептида в связи с необходимостью нокопления данных от множества пептидов. Моделирование транс-цис перехода вычислительными методами также является трудоемкой задачей, требующей введения более сложных силовых полей. Это приводит к недостатку данных о возможности, а также роли цис-транс изомеризации в работе ТМД. 
+
+Так же сложность в вопрос конформационного изменения вносит энергия перехода. Если в мембранной спирали происходит подобное изменение с образованием кинка посередине, то дополнительно к энергии изомеризации пептидной связи добавится энергия поворота участка $\alpha$-спирали в мембране. Это наличие избыточной энергии может являться причиной того, что пролины преимущественно оказываются в гидрофильной области, т.к. в таком случае исчезает проблема поворота участка спирали в мембране. \\
+
+Несмотря на сложности в получении данных, известны рецепторы, в которых цис-транс изомеризация, приводящая к конформационным изменениям, является механизмом передачи сигнала, к примеру рецептор родопсин, в котором поглощение кванта света дает энергию изомеризации. Также подобные изменения в ТМ спиралях показаны в ионных каналах с помощью мутагенеза пролина \cite{cistrans}.
+
+\subsection{Компьютерное моделирование биологических молекул} \label{md}
+TO-DO
+
+\newpage
+\section{Материалы и методы}
+
+\newpage
+\section{Результаты и обсуждение}
+
+\newpage
+\section{Выводы}
+
+
+\newpage
+\begin{thebibliography}{99} 
+\addcontentsline{toc}{section}{Список литературы}
+
+%IR
+
+\bibitem{ecto}
+Uchikawa E, Choi E, Shang G, Yu H, Bai XC. Activation mechanism of the insulin receptor revealed by cryo-EM structure of the fully liganded receptor-ligand complex Elife. 2019; 2019 Aug 22.
+
+\bibitem{activation}
+De Meyts P. The insulin receptor and its signal transduction network. In: De Groot LJ, Chrousos G, Dungan K, Feingold KR, Grossman A, Hershman JM, Koch C, Korbonits M, Mclachlan R, New M, Purnell J, Rebar R, Singer F, Vinik A, editors. Endotext [Internet]. South Dartmouth, MA: MDText.com, Inc. (2000).
+
+\bibitem{lee}
+Lee J, Miyazaki M, Romeo GR and Shoelson SE. Insulin receptor activation with transmembrane domain ligands. J Biol Chem 289: 19769-19777 (2014)
+
+%IR TMD
+
+
+%Proline
+
+\bibitem{prolineExp1}
+Woolfson DN, Mortishire-Smith RJ, Williams DH. Conserved positioning of proline residues in membrane-spanning helices of ion-channel proteins. Biochem Biophys Res Commun 1991; 175: 733–737
+
+\bibitem{bacteriorhodopsin}
+Alex Peralvarez-Marin, Jose-Luis Bourdelande, Enric Querol, Esteve Padros (2006) The role of proline residues in the dynamics of transmembrane helices: the case of bacteriorhodopsin, Molecular Membrane Biology, 23:2, 127-135
+
+\bibitem{prolineExp2}
+Slepkov ER, Chow S, Lemieux MJ, Fliegel L. Proline residues in transmembrane segment IV are critical for activity, expression and targeting of the Na?+?/H+ exchanger isoform 1. Biochem J 2004; 379: 31–38
+
+\bibitem{prolineDistortions}
+Cordes FS, Bright JN, Sansom MSP. Proline-induced distortions of transmembrane helices. J Mol Biol 2002; 323: 951–960
+
+\bibitem{model}
+L.K. Iyer, S. Vishveshwara
+A model for transmembrane helix with a cis-proline in the middle
+FEBS Lett., 374 (1995), pp. 21-24
+
+\bibitem{positioning}
+D.N. Woolfson, R.J. Mortishire-Smith, D.H. Williams
+Conserved positioning of proline residues in membrane-spanning helices of ion-channel proteins
+Biochem. Biophys. Res. Commun., 175 (1991), pp. 733-737
+
+\bibitem{tmtm}
+N. Sal-Man, D. Gerber, Y. Shai
+Proline localized to the interaction interface can mediate self-association of transmembrane domains
+Biochim. Biophys. Acta - Biomembr., 1838 (2014), pp. 2313-2318
+
+\bibitem{cistrans}
+Lummis, S., Beene, D., Lee, L. et al. Cis–trans isomerization at a proline opens the pore of a neurotransmitter-gated ion channel. Nature 438, 248–252 (2005)
+
+\end{thebibliography}
+
+\end{document}
