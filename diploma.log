@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.4)  10 MAR 2020 13:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.4)  11 MAR 2020 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -689,7 +689,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
  []
 
 [4]
-<InsulineReceptor.jpg, id=104, 93.2283pt x 144.54pt>
+<InsulineReceptor.jpg, id=114, 93.2283pt x 144.54pt>
 File: InsulineReceptor.jpg Graphic file (type jpg)
 <use InsulineReceptor.jpg>
 Package pdftex.def Info: InsulineReceptor.jpg  used on input line 100.
@@ -703,7 +703,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-<IR_path.png, id=108, 873.2625pt x 547.04375pt>
+<IR_path.png, id=118, 873.2625pt x 547.04375pt>
 File: IR_path.png Graphic file (type png)
 <use IR_path.png>
 Package pdftex.def Info: IR_path.png  used on input line 111.
@@ -712,7 +712,7 @@ Package pdftex.def Info: IR_path.png  used on input line 111.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./InsulineReceptor.jpg>]
-<activation.jpg, id=118, 803.0pt x 602.25pt>
+<activation.jpg, id=128, 803.0pt x 602.25pt>
 File: activation.jpg Graphic file (type jpg)
 <use activation.jpg>
 Package pdftex.def Info: activation.jpg  used on input line 132.
@@ -732,69 +732,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
  []
 
 [6 <./IR_path.png (PNG copy)>]
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 158.
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 158.
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 158.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 158.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 158.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 158.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
+<TMDinmicelle.jpg, id=148, 144.54pt x 127.27194pt>
+File: TMDinmicelle.jpg Graphic file (type jpg)
+<use TMDinmicelle.jpg>
+Package pdftex.def Info: TMDinmicelle.jpg  used on input line 156.
+(pdftex.def)             Requested size: 187.78532pt x 165.36028pt.
 [7 <./activation.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[8] [9] [10] [11] [12]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
- [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
+[8 <./TMDinmicelle.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 188.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 188.
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 188.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 188.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 188.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+[10] [11] [12] [13] [14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+ [15]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
  (./diploma.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `diploma.out' has not changed.
-(rerunfilecheck)             Checksum: 1E578DC677C0A40CF67A19A9A40391F0;3450.
+(rerunfilecheck)             Checksum: B0212EC8EAA2BC356A85D5CF213DEE15;4353.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 241.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 282.
  ) 
 Here is how much of TeX's memory you used:
- 11394 strings out of 492616
- 156129 string characters out of 6129482
- 240269 words of memory out of 5000000
- 15114 multiletter control sequences out of 15000+600000
+ 11413 strings out of 492616
+ 156411 string characters out of 6129482
+ 240616 words of memory out of 5000000
+ 15125 multiletter control sequences out of 15000+600000
  27932 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,5n,35p,1895b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,5n,35p,1895b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
 }</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
@@ -805,10 +828,10 @@ ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/loc
 al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/t
 exlive/2019/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on diploma.pdf (13 pages, 614818 bytes).
+Output written on diploma.pdf (15 pages, 652616 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 PDF objects out of 1000 (max. 8388607)
+ 222 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
