@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.4)  7 JUN 2020 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.3.4)  7 JUN 2020 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,119 +733,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--90
  []
 
 [4]
-<InsulineReceptor.jpg, id=155, 93.2283pt x 144.54pt>
+<InsulineReceptor.jpg, id=150, 93.2283pt x 144.54pt>
 File: InsulineReceptor.jpg Graphic file (type jpg)
 <use InsulineReceptor.jpg>
 Package pdftex.def Info: InsulineReceptor.jpg  used on input line 105.
 (pdftex.def)             Requested size: 187.78532pt x 291.16786pt.
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 106
-.
- (/usr/local/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)
+
 Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
-<IR_path.png, id=159, 873.2625pt x 547.04375pt>
+<IR_path.png, id=154, 873.2625pt x 547.04375pt>
 File: IR_path.png Graphic file (type png)
 <use IR_path.png>
 Package pdftex.def Info: IR_path.png  used on input line 116.
 (pdftex.def)             Requested size: 422.52057pt x 264.6815pt.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 117
+.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--122
+
+ []
 
 [5 <./InsulineReceptor.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
-
- []
-
-<activation.jpg, id=169, 484.81125pt x 302.12875pt>
+<activation.jpg, id=165, 484.81125pt x 302.12875pt>
 File: activation.jpg Graphic file (type jpg)
 <use activation.jpg>
-Package pdftex.def Info: activation.jpg  used on input line 131.
+Package pdftex.def Info: activation.jpg  used on input line 127.
 (pdftex.def)             Requested size: 281.68515pt x 175.55289pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 136--137
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[6 <./IR_path.png (PNG copy)>]
-<TMDinmicelle.jpg, id=186, 144.54pt x 127.27194pt>
+[6 <./IR_path.png (PNG copy)> <./activation.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
+
+<TMDinmicelle.jpg, id=182, 144.54pt x 127.27194pt>
 File: TMDinmicelle.jpg Graphic file (type jpg)
 <use TMDinmicelle.jpg>
-Package pdftex.def Info: TMDinmicelle.jpg  used on input line 149.
+Package pdftex.def Info: TMDinmicelle.jpg  used on input line 147.
 (pdftex.def)             Requested size: 187.78532pt x 165.36028pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
-[7 <./activation.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+[7 <./TMDinmicelle.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
 
-[8 <./TMDinmicelle.jpg>]
+<ibch-dimers.png, id=200, 915.42pt x 394.47375pt>
+File: ibch-dimers.png Graphic file (type png)
+<use ibch-dimers.png>
+Package pdftex.def Info: ibch-dimers.png  used on input line 169.
+(pdftex.def)             Requested size: 469.47049pt x 202.30453pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 173.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 174.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 173.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 174.
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <7> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 173.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 174.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 173.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 174.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
+(hyperref)                removing `\alpha' on input line 174.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 173.
+(hyperref)                removing `math shift' on input line 174.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 173.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
-[9]
+[8] [9 <./ibch-dimers.png>]
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <5> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 200.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 201.
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <5> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 200.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 201.
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Overfull \hbox (4.65881pt too wide) in paragraph at lines 202--203
+Overfull \hbox (4.65881pt too wide) in paragraph at lines 203--204
 \T2A/cmr/m/n/12 ме-ни $\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 t$ \T2A/cmr/m/n/12 н
 а неко-то-ром от-рез-ке $\OT1/cmr/m/n/12 [\OML/cmm/m/it/12 t[]; t[]\OT1/cmr/m/n
 /12 ]$ \T2A/cmr/m/n/12 при за-дан-ных на-чаль-ных усло-ви-ях $\OT1/cmr/m/n/12 (
@@ -855,53 +860,53 @@ T2A/cmr/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
 [10]
-Overfull \hbox (5.21371pt too wide) in paragraph at lines 216--217
+Overfull \hbox (5.21371pt too wide) in paragraph at lines 217--218
 []\T2A/cmr/m/n/12 Изначальная струк-ту-ра мо-но-ме-ра ТМ до-ме-на IR c транс-ко
 нформацией свя-зи Gly957-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
 
-Overfull \hbox (3.9044pt too wide) in paragraph at lines 224--235
+Overfull \hbox (3.9044pt too wide) in paragraph at lines 225--236
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--238
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
@@ -910,155 +915,155 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 328.
+(hyperref)                removing `math shift' on input line 329.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 328.
+(hyperref)                removing `\alpha' on input line 329.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 328.
+(hyperref)                removing `math shift' on input line 329.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
 
  []
 
 [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--335
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
-<pic_ref.png, id=269, 3468.96pt x 3285.27374pt>
+<pic_ref.png, id=274, 3468.96pt x 3285.27374pt>
 File: pic_ref.png Graphic file (type png)
 <use pic_ref.png>
-Package pdftex.def Info: pic_ref.png  used on input line 342.
+Package pdftex.def Info: pic_ref.png  used on input line 343.
 (pdftex.def)             Requested size: 187.78532pt x 177.80818pt.
-<pic_R2.png, id=271, 3318.3975pt x 2874.74pt>
+<pic_R2.png, id=275, 3318.3975pt x 2874.74pt>
 File: pic_R2.png Graphic file (type png)
 <use pic_R2.png>
-Package pdftex.def Info: pic_R2.png  used on input line 344.
+Package pdftex.def Info: pic_R2.png  used on input line 345.
 (pdftex.def)             Requested size: 187.78532pt x 162.65121pt.
 [14 <./pic_ref.png> <./pic_R2.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 353.
+(hyperref)                removing `math shift' on input line 354.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 353.
+(hyperref)                removing `\alpha' on input line 354.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 353.
+(hyperref)                removing `math shift' on input line 354.
 
-<pic_3_dimers.png, id=283, 2264.46pt x 1763.58875pt>
+<pic_3_dimers.png, id=287, 2264.46pt x 1763.58875pt>
 File: pic_3_dimers.png Graphic file (type png)
 <use pic_3_dimers.png>
-Package pdftex.def Info: pic_3_dimers.png  used on input line 362.
+Package pdftex.def Info: pic_3_dimers.png  used on input line 363.
 (pdftex.def)             Requested size: 211.26028pt x 164.52873pt.
 [15 <./pic_3_dimers.png>]
-Overfull \hbox (75.24605pt too wide) in paragraph at lines 371--371
+Overfull \hbox (75.24605pt too wide) in paragraph at lines 372--372
 []\T2A/cmr/bx/n/14.4 Влияние цис-конформации свя-зи Gly-Pro на структурно-динам
 ические
  []
 
-<monos.png, id=292, 1027.84pt x 527.9725pt>
+<monos.png, id=296, 1027.84pt x 527.9725pt>
 File: monos.png Graphic file (type png)
 <use monos.png>
-Package pdftex.def Info: monos.png  used on input line 377.
+Package pdftex.def Info: monos.png  used on input line 378.
 (pdftex.def)             Requested size: 469.47049pt x 241.15433pt.
-<LONG_rmsd.png, id=293, 390.45876pt x 279.0425pt>
+<LONG_rmsd.png, id=297, 390.45876pt x 279.0425pt>
 File: LONG_rmsd.png Graphic file (type png)
 <use LONG_rmsd.png>
-Package pdftex.def Info: LONG_rmsd.png  used on input line 385.
+Package pdftex.def Info: LONG_rmsd.png  used on input line 386.
 (pdftex.def)             Requested size: 211.26028pt x 150.97874pt.
-<Short_rmsd.png, id=294, 396.48125pt x 279.0425pt>
+<Short_rmsd.png, id=298, 396.48125pt x 279.0425pt>
 File: Short_rmsd.png Graphic file (type png)
 <use Short_rmsd.png>
-Package pdftex.def Info: Short_rmsd.png  used on input line 387.
+Package pdftex.def Info: Short_rmsd.png  used on input line 388.
 (pdftex.def)             Requested size: 211.26028pt x 148.68803pt.
-<LONG_rmsf.png, id=295, 396.48125pt x 279.0425pt>
+<LONG_rmsf.png, id=299, 396.48125pt x 279.0425pt>
 File: LONG_rmsf.png Graphic file (type png)
 <use LONG_rmsf.png>
-Package pdftex.def Info: LONG_rmsf.png  used on input line 389.
+Package pdftex.def Info: LONG_rmsf.png  used on input line 390.
 (pdftex.def)             Requested size: 211.26028pt x 148.68803pt.
-<Short_rmsf.png, id=296, 404.51125pt x 279.0425pt>
+<Short_rmsf.png, id=300, 404.51125pt x 279.0425pt>
 File: Short_rmsf.png Graphic file (type png)
 <use Short_rmsf.png>
-Package pdftex.def Info: Short_rmsf.png  used on input line 391.
+Package pdftex.def Info: Short_rmsf.png  used on input line 392.
 (pdftex.def)             Requested size: 211.26028pt x 145.73308pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 397--398
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 
  []
 
 [16
 
  <./monos.png>]
-<TRANS_LONG_angle.png, id=306, 441.65pt x 297.11pt>
+<TRANS_LONG_angle.png, id=310, 441.65pt x 297.11pt>
 File: TRANS_LONG_angle.png Graphic file (type png)
 <use TRANS_LONG_angle.png>
-Package pdftex.def Info: TRANS_LONG_angle.png  used on input line 405.
+Package pdftex.def Info: TRANS_LONG_angle.png  used on input line 406.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
-<CIS_LONG_angle.png, id=307, 441.65pt x 297.11pt>
+<CIS_LONG_angle.png, id=311, 441.65pt x 297.11pt>
 File: CIS_LONG_angle.png Graphic file (type png)
 <use CIS_LONG_angle.png>
-Package pdftex.def Info: CIS_LONG_angle.png  used on input line 407.
+Package pdftex.def Info: CIS_LONG_angle.png  used on input line 408.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
-<TRANS_SHORT_angle.png, id=308, 441.65pt x 297.11pt>
+<TRANS_SHORT_angle.png, id=312, 441.65pt x 297.11pt>
 File: TRANS_SHORT_angle.png Graphic file (type png)
 <use TRANS_SHORT_angle.png>
-Package pdftex.def Info: TRANS_SHORT_angle.png  used on input line 409.
+Package pdftex.def Info: TRANS_SHORT_angle.png  used on input line 410.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
-<CIS_SHORT_angle.png, id=309, 441.65pt x 297.11pt>
+<CIS_SHORT_angle.png, id=313, 441.65pt x 297.11pt>
 File: CIS_SHORT_angle.png Graphic file (type png)
 <use CIS_SHORT_angle.png>
-Package pdftex.def Info: CIS_SHORT_angle.png  used on input line 411.
+Package pdftex.def Info: CIS_SHORT_angle.png  used on input line 412.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<TRANS_LONG_curve.png, id=310, 441.65pt x 297.11pt>
+<TRANS_LONG_curve.png, id=314, 441.65pt x 297.11pt>
 File: TRANS_LONG_curve.png Graphic file (type png)
 <use TRANS_LONG_curve.png>
-Package pdftex.def Info: TRANS_LONG_curve.png  used on input line 418.
+Package pdftex.def Info: TRANS_LONG_curve.png  used on input line 419.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
-<CIS_LONG_curve.png, id=311, 441.65pt x 297.11pt>
+<CIS_LONG_curve.png, id=315, 441.65pt x 297.11pt>
 File: CIS_LONG_curve.png Graphic file (type png)
 <use CIS_LONG_curve.png>
-Package pdftex.def Info: CIS_LONG_curve.png  used on input line 420.
+Package pdftex.def Info: CIS_LONG_curve.png  used on input line 421.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
-<TRANS_SHORT_curve.png, id=312, 441.65pt x 297.11pt>
+<TRANS_SHORT_curve.png, id=316, 441.65pt x 297.11pt>
 File: TRANS_SHORT_curve.png Graphic file (type png)
 <use TRANS_SHORT_curve.png>
-Package pdftex.def Info: TRANS_SHORT_curve.png  used on input line 422.
+Package pdftex.def Info: TRANS_SHORT_curve.png  used on input line 423.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
-<CIS_SHORT_curve.png, id=313, 441.65pt x 297.11pt>
+<CIS_SHORT_curve.png, id=317, 441.65pt x 297.11pt>
 File: CIS_SHORT_curve.png Graphic file (type png)
 <use CIS_SHORT_curve.png>
-Package pdftex.def Info: CIS_SHORT_curve.png  used on input line 424.
+Package pdftex.def Info: CIS_SHORT_curve.png  used on input line 425.
 (pdftex.def)             Requested size: 211.26028pt x 142.12155pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 433--434
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
@@ -1069,76 +1074,76 @@ LaTeX Warning: Text page 18 contains only floats.
 [18 <./TRANS_LONG_angle.png> <./CIS_LONG_angle.png> <./TRANS_SHORT_angle.png> <
 ./CIS_SHORT_angle.png> <./TRANS_LONG_curve.png> <./CIS_LONG_curve.png> <./TRANS
 _SHORT_curve.png> <./CIS_SHORT_curve.png>]
-<GLY-PRO_curve.png, id=351, 398.48875pt x 279.0425pt>
+<GLY-PRO_curve.png, id=355, 398.48875pt x 279.0425pt>
 File: GLY-PRO_curve.png Graphic file (type png)
 <use GLY-PRO_curve.png>
-Package pdftex.def Info: GLY-PRO_curve.png  used on input line 440.
+Package pdftex.def Info: GLY-PRO_curve.png  used on input line 441.
 (pdftex.def)             Requested size: 281.68515pt x 197.2572pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
 
  []
 
-<schema_good1.png, id=353, 1769.61125pt x 1371.1225pt>
+<schema_good1.png, id=357, 1769.61125pt x 1371.1225pt>
 File: schema_good1.png Graphic file (type png)
 <use schema_good1.png>
-Package pdftex.def Info: schema_good1.png  used on input line 452.
+Package pdftex.def Info: schema_good1.png  used on input line 453.
 (pdftex.def)             Requested size: 187.78532pt x 145.48892pt.
-<schema_good2.png, id=354, 1772.6225pt x 1289.81876pt>
+<schema_good2.png, id=358, 1772.6225pt x 1289.81876pt>
 File: schema_good2.png Graphic file (type png)
 <use schema_good2.png>
-Package pdftex.def Info: schema_good2.png  used on input line 454.
+Package pdftex.def Info: schema_good2.png  used on input line 455.
 (pdftex.def)             Requested size: 187.78532pt x 136.62566pt.
-<schema_bad1.png, id=355, 1794.705pt x 1327.96124pt>
+<schema_bad1.png, id=359, 1794.705pt x 1327.96124pt>
 File: schema_bad1.png Graphic file (type png)
 <use schema_bad1.png>
-Package pdftex.def Info: schema_bad1.png  used on input line 456.
+Package pdftex.def Info: schema_bad1.png  used on input line 457.
 (pdftex.def)             Requested size: 187.78532pt x 138.9436pt.
-<schema_bad2.png, id=356, 1826.825pt x 1298.8525pt>
+<schema_bad2.png, id=360, 1826.825pt x 1298.8525pt>
 File: schema_bad2.png Graphic file (type png)
 <use schema_bad2.png>
-Package pdftex.def Info: schema_bad2.png  used on input line 458.
+Package pdftex.def Info: schema_bad2.png  used on input line 459.
 (pdftex.def)             Requested size: 187.78532pt x 133.4999pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
+Underfull \hbox (badness 10000) in paragraph at lines 465--466
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 486--487
 
  []
 
 [19 <./GLY-PRO_curve.png>]
-<CIS-CIS_rmsd.png, id=371, 396.48125pt x 279.0425pt>
+<CIS-CIS_rmsd.png, id=375, 396.48125pt x 279.0425pt>
 File: CIS-CIS_rmsd.png Graphic file (type png)
 <use CIS-CIS_rmsd.png>
-Package pdftex.def Info: CIS-CIS_rmsd.png  used on input line 491.
+Package pdftex.def Info: CIS-CIS_rmsd.png  used on input line 492.
 (pdftex.def)             Requested size: 281.68515pt x 198.25354pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<CIS-CIS-TRANS-TRANS_rmsf.png, id=373, 396.48125pt x 279.0425pt>
+<CIS-CIS-TRANS-TRANS_rmsf.png, id=377, 396.48125pt x 279.0425pt>
 File: CIS-CIS-TRANS-TRANS_rmsf.png Graphic file (type png)
 <use CIS-CIS-TRANS-TRANS_rmsf.png>
-Package pdftex.def Info: CIS-CIS-TRANS-TRANS_rmsf.png  used on input line 501.
+Package pdftex.def Info: CIS-CIS-TRANS-TRANS_rmsf.png  used on input line 502.
 (pdftex.def)             Requested size: 281.68515pt x 198.25354pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<CIS-CIS_naked.png, id=374, 908.39375pt x 694.595pt>
+<CIS-CIS_naked.png, id=378, 908.39375pt x 694.595pt>
 File: CIS-CIS_naked.png Graphic file (type png)
 <use CIS-CIS_naked.png>
-Package pdftex.def Info: CIS-CIS_naked.png  used on input line 509.
+Package pdftex.def Info: CIS-CIS_naked.png  used on input line 510.
 (pdftex.def)             Requested size: 281.68515pt x 215.38582pt.
-<CIS-CIS_in_mem.png, id=375, 893.3375pt x 713.66624pt>
+<CIS-CIS_in_mem.png, id=379, 893.3375pt x 713.66624pt>
 File: CIS-CIS_in_mem.png Graphic file (type png)
 <use CIS-CIS_in_mem.png>
-Package pdftex.def Info: CIS-CIS_in_mem.png  used on input line 511.
+Package pdftex.def Info: CIS-CIS_in_mem.png  used on input line 512.
 (pdftex.def)             Requested size: 281.68515pt x 225.03473pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1146,27 +1151,27 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [20 <./schema_good1.png> <./schema_good2.png> <./schema_bad1.png> <./schema_bad
 2.png>] [21 <./CIS-CIS_rmsd.png> <./CIS-CIS-TRANS-TRANS_rmsf.png>] [22 <./CIS-C
 IS_naked.png> <./CIS-CIS_in_mem.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 524--525
+Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
-<trans-cis_activation_part1.png, id=412, 2790.425pt x 1495.5875pt>
+<trans-cis_activation_part1.png, id=416, 2790.425pt x 1495.5875pt>
 File: trans-cis_activation_part1.png Graphic file (type png)
 <use trans-cis_activation_part1.png>
-Package pdftex.def Info: trans-cis_activation_part1.png  used on input line 528
+Package pdftex.def Info: trans-cis_activation_part1.png  used on input line 529
 .
 (pdftex.def)             Requested size: 281.68515pt x 150.95958pt.
-<trans-cis_activation_part2.png, id=413, 2654.91875pt x 1302.8675pt>
+<trans-cis_activation_part2.png, id=417, 2654.91875pt x 1302.8675pt>
 File: trans-cis_activation_part2.png Graphic file (type png)
 <use trans-cis_activation_part2.png>
-Package pdftex.def Info: trans-cis_activation_part2.png  used on input line 530
+Package pdftex.def Info: trans-cis_activation_part2.png  used on input line 531
 .
 (pdftex.def)             Requested size: 281.68515pt x 138.22655pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 536--537
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 
  []
 
@@ -1176,25 +1181,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 536--537
 5
 
 ] [26]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 640.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 648.
  [27]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 640.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 648.
  (./diploma.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 640.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 640.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 648.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 648.
 Package rerunfilecheck Info: File `diploma.out' has not changed.
-(rerunfilecheck)             Checksum: 05D92862DCC5CAD8AE8192320C20D359;7427.
+(rerunfilecheck)             Checksum: 71DAF5D65C045544B56DFF16EAEBC931;7477.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 640.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 648.
  ) 
 Here is how much of TeX's memory you used:
- 12889 strings out of 492616
- 182841 string characters out of 6129482
- 271545 words of memory out of 5000000
- 16492 multiletter control sequences out of 15000+600000
+ 12898 strings out of 492616
+ 182989 string characters out of 6129482
+ 272238 words of memory out of 5000000
+ 16498 multiletter control sequences out of 15000+600000
  30598 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,9n,49p,3642b,462s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1215,10 +1220,10 @@ e/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texlive/
 /texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2019/tex
 mf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on diploma.pdf (27 pages, 5437690 bytes).
+Output written on diploma.pdf (27 pages, 5589655 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 117 named destinations out of 1000 (max. 500000)
- 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 415 compressed objects within 5 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
