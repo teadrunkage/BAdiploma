@@ -114,7 +114,7 @@
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.90\textwidth]{IR_path.png}
-    \caption{Схема каскада реакций, запускаемых рецептором инсулина (синий) в результате связывания с инсулином (красный). \url{https://pdb101.rcsb.org/global-health/diabetes-mellitus/drugs/insulin/insulin-receptor}}
+    \caption{TODO update picture!!!! Схема каскада реакций, запускаемых рецептором инсулина (синий) в результате связывания с инсулином (красный). \url{https://pdb101.rcsb.org/global-health/diabetes-mellitus/drugs/insulin/insulin-receptor}}
     \label{fig:path}
 \end{figure}
 
@@ -125,7 +125,7 @@
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.60\textwidth]{activation.jpg}
-    \caption{Модель активации инсулина, основанная на димеризации ТМ домена.  \cite{activation}. Желтым изображен внеклеточный домен одного из мономеров, синим отмечен киназный домен этого мономера, оранжевым покрашен ТМ домен этого мономера. Серым показана мембрана. Второй мономер изображен белым светом.}
+    \caption{TODO update picture!!!! Модель активации инсулина, основанная на димеризации ТМ домена.  \cite{activation}. Желтым изображен внеклеточный домен одного из мономеров, синим отмечен киназный домен этого мономера, оранжевым покрашен ТМ домен этого мономера. Серым показана мембрана. Второй мономер изображен белым светом.}
     \label{fig:activation_pic}
 \end{figure}
 
@@ -153,9 +153,6 @@ TODO refactor this subsubsection! \\
 
  
 В лаборатории биомолекулярной ЯМР-спектроскопии ИБХ РАН был проведен аналогичный эксперимент с целью получения димерных форм в мицеллах ДФХ. Был выделен участок 944-973 и созданы образцы мономерных и димерных форм в мицеллах. Спектры показали неоднозначные результаты в отношении излома Gly-Pro, на основе которых можно предположить наличие двух форм мономера, различающихся по форме с N-конца (для димера - три различные формы) \cite{winterschool}.\\
-
-
-TO-DO добавить график вторичной структуры и спектр (если это возможно)\\
 
 
 \subsubsection{Возможные  структуры ТМ димера по данным моделирования}
@@ -375,8 +372,14 @@ $$\varphi = acos(\frac{|\overline{\Delta R }|}{2}- 1).$$ \label{eq:curve}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=1\textwidth]{monos.png}
-    \caption{Стабильные структуры мономеров: ТРАНС-Д, ЦИС-Д, ТРАНС-К, ЦИС-К. \textbf{TO-DO сделать более красивую картинку, отметить Pro.}}
+    \subfloat[ТРАНС-Д]{{\includegraphics[width=0.45\textwidth]{trans-long.png}}}
+    \qquad
+    \subfloat[ЦИС-Д]{{\includegraphics[width=0.45\textwidth]{cis-long.png}}}
+    \qquad
+    \subfloat[ТРАНС-К]{{\includegraphics[width=0.45\textwidth]{trans-short.png}}}
+    \qquad
+    \subfloat[ЦИС-К]{{\includegraphics[width=0.45\textwidth]{cis-short.png}}}
+    \caption{Стабильные структуры мономеров: ТРАНС-Д, ЦИС-Д, ТРАНС-К, ЦИС-К.}
     \label{fig:monos}
 \end{figure}
 
@@ -450,14 +453,12 @@ $$\varphi = acos(\frac{|\overline{\Delta R }|}{2}- 1).$$ \label{eq:curve}
 
 \begin{figure}[h!]
     \centering
-    \subfloat[]{{\includegraphics[width=0.4\textwidth]{schema_good1.png}}}
+    \subfloat[Цис-цис димер 1]{{\includegraphics[width=0.4\textwidth]{cis-cis1.png}}}
     \qquad
-    \subfloat[]{{\includegraphics[width=0.4\textwidth]{schema_good2.png}}}
+    \subfloat[Цис-цис димер 6]{{\includegraphics[width=0.4\textwidth]{cis-cis6.png}}}
     \qquad
-    \subfloat[]{{\includegraphics[width=0.4\textwidth]{schema_bad1.png}}}
-    \qquad
-    \subfloat[]{{\includegraphics[width=0.4\textwidth]{schema_bad2.png}}}
-    \caption{Схема пересечений жестких мономеров в димерах. Димеры a, b - без пересечений, димеры c, d - есть пересечения. \textbf{TO-DO: поменять на реальные картинки после наложения - ?}}
+    \subfloat[Цис-цис димер 2]{{\includegraphics[width=0.4\textwidth]{cis-cis2.png}}}
+    \caption{Изображения димеров после наложения ЦИС-Д на оба мономера. У цис-цис димеров, полученных из моделей 1 и 6 есть пересечения (в остатках 954-954 и 952-951 соответственно). У цис-цис димера, полученного из модели 2 нет пересечений.}
      \label{fig:schema}
 \end{figure}
 
@@ -477,7 +478,7 @@ $$\varphi = acos(\frac{|\overline{\Delta R }|}{2}- 1).$$ \label{eq:curve}
 \hline
 1 & - & 954-954 & - \\ % inserting body of the table
 2 & - & - & - \\
-6 & 959-959 & 952-952 & - \\
+6 & 959-959 & 952-951 & - \\
 \hline %inserts single line
 \end{tabular}
 \label{table:overlapping} % is used to refer this table in the text
