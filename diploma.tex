@@ -111,13 +111,6 @@
 
 В рецепторе инсулина выделяют внеклеточный, трансмембранный и внутриклеточный (киназный) домены (рис. \ref{fig:IR}{}). Внеклеточный домен связывается с лигандом, трансмембранный домен передает сигнал от внеклеточного домена к киназному, киназный домен осуществляет реакцию фосфорилирования остатков тирозина в сигнальном белке, что приводит к каскаду химических реакций и, соответственно, клеточному ответу. \\
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.90\textwidth]{IR_path.png}
-    \caption{TODO update picture!!!! Схема каскада реакций, запускаемых рецептором инсулина (синий) в результате связывания с инсулином (красный). \url{https://pdb101.rcsb.org/global-health/diabetes-mellitus/drugs/insulin/insulin-receptor}}
-    \label{fig:path}
-\end{figure}
-
 В организме человека рецептор инсулина существует в двух изоформах: IR-A и IR-B. Они различаются по афинности к IGF-I и IGF-II. Так, установлено, что IR-A отвечает за внутриутробный рост и развитие, а IR-B отвечает за метаболическую регуляцию \cite{isophorms}. \\
 
 Поскольку рецептор отвечает за столь важные процессы в организме человека, нарушения в его работе приводят к различным клиническим проявления, в том числе к инсулинонезависимый диабету. Нарушения возможны на всех этапах работы рецептора, поэтому мы рассматриваем процесс активации на молекулярном уровне.
@@ -337,10 +330,10 @@ $$\varphi = acos(\frac{|\overline{\Delta R }|}{2}- 1).$$ \label{eq:curve}
 
 \begin{figure}[h]
     \centering
-    \subfloat[определение наклона]{{\includegraphics[width=0.4\textwidth]{pic_ref.png}}}
+    \subfloat[определение наклона]{{\includegraphics[width=0.4\textwidth]{MAKET_1.png}}}
     \qquad
-    \subfloat[определение излома]{{\includegraphics[width=0.4\textwidth]{pic_R2.png}}}
-    \caption{Схема обработки геометрических данных трансмембранной $\alpha$-спирали}
+    \subfloat[определение излома]{{\includegraphics[width=0.4\textwidth]{MAKET_4.png}}}
+    \caption{Схема обработки геометрических данных трансмембранной $\alpha$-спирали. Голубым обозначена мембрана. Розовым обозначено направление оси Z. Желтым отмечен угол $\varphi$. Здесь и далее белок покрашен в соотвествии с цветовым кодом: неполярные остатки - белым, отрицательно заряженные - синим, положительно заряженные - красным, полярные - зеленым.}
      \label{fig:anglecurve}
    
 \end{figure}
@@ -357,7 +350,7 @@ $$\varphi = acos(\frac{|\overline{\Delta R }|}{2}- 1).$$ \label{eq:curve}
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.45\textwidth]{pic_3_dimers.png}
+    \includegraphics[width=0.45\textwidth]{MAKET_DIM_2.png}
     \caption{Схема определения пересечений между мономерами в модельном димере.}
     \label{fig:overlay}
 \end{figure}
@@ -366,7 +359,7 @@ $$\varphi = acos(\frac{|\overline{\Delta R }|}{2}- 1).$$ \label{eq:curve}
 \clearpage
 \section{Результаты и обсуждение}
 
-\subsection{Влияние цис-конформации связи Gly-Pro на структурно-динамические параметры мономеров} \label{monomers}
+\subsection{Влияние цис-конформации связи Gly-Pro на структурно - динамические параметры мономеров} \label{monomers}
 
 В работе были получены структуры мономеров с цис- и транс-конформацией пептидной связи Gly957-Pro958. Отметили, что длина внешних свободных участков сильно влияет на структуру пептида: в случае короткого примембранного участка с N конца часть спирали с цис-конформацией Gly-Pro разворачивалась. Описание пептидов приведено в таблице \ref{table:monopeptides}. Полученные структуры показаны на рис. \ref{fig:monos}.
 
@@ -386,13 +379,13 @@ $$\varphi = acos(\frac{|\overline{\Delta R }|}{2}- 1).$$ \label{eq:curve}
 
 \begin{figure}[h!]
     \centering
-    \subfloat{{\includegraphics[width=0.45\textwidth]{LONG_rmsd.png}}}
+    \subfloat{{\includegraphics[width=0.4\textwidth]{LONG_rmsd.png}}}
     \qquad
-    \subfloat{{\includegraphics[width=0.45\textwidth]{Short_rmsd.png}}}
+    \subfloat{{\includegraphics[width=0.4\textwidth]{Short_rmsd.png}}}
     \qquad
-    \subfloat{{\includegraphics[width=0.45\textwidth]{LONG_rmsf.png}}}
+    \subfloat{{\includegraphics[width=0.4\textwidth]{LONG_rmsf.png}}}
     \qquad
-    \subfloat{{\includegraphics[width=0.45\textwidth]{Short_rmsf.png}}}
+    \subfloat{{\includegraphics[width=0.4\textwidth]{Short_rmsf.png}}}
     \caption{Графики СКО и СКФ четырех пептидов: синий - ТРАНС-Д, зеленый - ЦИС-Д, желтый - ТРАНС-К, фиолетовый - ЦИС-К.}
      \label{fig:monormsd-rmsf}
    
